@@ -1,4 +1,29 @@
 <resources>
     <string name="app_name">DCL软件管理</string>
     
+    <!-- 进程管理 -->
+    <string name="pm_title">后台进程管理</string>
+    <string name="pm_tip">按常驻内存降序显示后台进程，点击可打开应用或强制停止</string>
+    <string name="pm_refresh">刷新列表</string>
+    <string name="pm_loading">正在扫描进程…</string>
+    <string name="pm_empty">未扫描到进程</string>
+    <string name="pm_loaded">共 %1$d 个进程</string>
+    <string name="pm_open">打开应用</string>
+    <string name="pm_stop">强制停止</string>
+    <string name="pm_opened">已打开: %1$s</string>
+    <string name="pm_stopped">已强制停止: %1$s</string>
+    <string name="pm_open_fail">该进程无法直接打开</string>
+    <string name="pm_stop_fail">强制停止失败，需要 Shizuku 或 Root</string>
+    <string name="pm_need_shizuku">需要先授权 Shizuku</string>
+    <string name="pm_system_tag">[系统]</string>
+    <string name="pm_systemui_tag">[系统界面]</string>
+    <string name="pm_systemui_hint">系统界面进程，仅列出，不可操作</string>
+    <string name="pm_systemui_title">系统界面进程</string>
+    <string name="pm_systemui_msg">进程: %1$s\nPID: %2$d\n内存: %3$s\n\ncom.android.systemui 为系统界面核心进程，强制停止或打开都可能导致状态栏、通知、导航键异常，本工具仅列出，不提供任何操作。</string>
+    <string name="pm_system_confirm_title">系统应用操作确认</string>
+    <string name="pm_system_confirm_msg">%1$s\n%2$s\n\n这是系统应用，执行「%3$s」可能影响系统稳定性，确定继续？</string>
+    <string name="cancel">取消</string>
+    <string name="confirm_ok">确定</string>
+    <string name="guide_back">返回</string>
+    
 </resources>

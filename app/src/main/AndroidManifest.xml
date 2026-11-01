@@ -59,6 +59,12 @@
             android:screenOrientation="portrait"
             android:windowSoftInputMode="adjustResize|stateAlwaysHidden"/>
 
+        <activity
+            android:name=".ProcessManagerActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateAlwaysHidden"/>
+
         <!-- Shizuku Provider -->
         <provider
             android:name="rikka.shizuku.ShizukuProvider"
@@ -72,9 +78,9 @@
             android:name="moe.shizuku.client.V3_SUPPORT"
             android:value="true" />
 
-       <meta-data
-           android:name="android.max_aspect"
-           android:value="4.0"/>
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="4.0"/>
 
     </application>
 	

@@ -87,6 +87,13 @@ public class ManagerActivity extends AppCompatActivity {
             }
         });
 
+        addFeatureButton(root, "进程管理", new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(ManagerActivity.this, ProcessManagerActivity.class));
+            }
+        });
+
         addFeatureButton(root, "设置", new View.OnClickListener() {
             @Override
             public void onClick(View v) {
