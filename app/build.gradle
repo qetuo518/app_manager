@@ -8,8 +8,8 @@ android {
         applicationId "dclnb.appmanager"
         minSdkVersion 23
         targetSdkVersion 26
-        versionCode 2611011
-        versionName "1.1"
+        versionCode 2611031
+        versionName "1.2"
     }
     buildTypes {
         release {
@@ -23,10 +23,4 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.0.0'
 	implementation 'com.google.android.material:material:1.0.0'
     implementation fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
-    // Shizuku SDK (本地 AAR，需复制到 libs 目录)
-    // 文件来源: xtsafe-main/app/libs/
-    // - api-12.2.0.aar
-    // - provider-12.2.0.aar
-    // - shared-12.2.0.aar
-    // - aidl-12.2.0.aar
 }

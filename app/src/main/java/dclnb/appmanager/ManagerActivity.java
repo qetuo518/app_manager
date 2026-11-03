@@ -97,13 +97,13 @@ public class ManagerActivity extends AppCompatActivity {
         addFeatureButton(root, "设置", new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(ManagerActivity.this, "设置（待实现）", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(ManagerActivity.this, SettingsActivity.class));
             }
         });
 
         // 底部提示
         TextView footer = new TextView(this);
-        footer.setText("DCL 软件管理 v1.0");
+        footer.setText("DCL 软件管理 v1.2");
         footer.setTextSize(11);
         footer.setTextColor(Color.argb(120, 90, 90, 90));
         footer.setGravity(Gravity.CENTER);
